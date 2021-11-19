@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2021-12-03" view-index="0" gantt-divider-location="412" resource-divider-location="300" version="3.1.3102" locale="en_US">
+    <description/>
+    <view zooming-state="default:0" id="gantt-chart">
+        <field id="tpd3" name="Name" width="312" order="0"/>
+        <field id="tpd4" name="Begin date" width="15" order="1"/>
+        <field id="tpd5" name="End date" width="66" order="2"/>
+        <timeline>
+            <![CDATA[13,41]]>
+        </timeline>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="13" name="Fase de Planeacion" color="#000000" meeting="false" start="2021-06-21" duration="2" complete="0" thirdDate="2021-06-11" thirdDate-constraint="0" expand="true">
+            <depend id="41" type="2" difference="0" hardness="Strong"/>
+            <task id="14" name="Discutir opiniones y sugerencias para el proyecto" color="#8cb6ce" meeting="false" start="2021-06-21" duration="1" complete="0" thirdDate="2021-06-11" thirdDate-constraint="0" expand="true">
+                <depend id="17" type="2" difference="0" hardness="Strong"/>
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="15" name="Definir alcance del proyecto" color="#8cb6ce" meeting="false" start="2021-06-21" duration="1" complete="0" thirdDate="2021-06-11" thirdDate-constraint="0" expand="true">
+                <depend id="17" type="2" difference="0" hardness="Strong"/>
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="16" name="Establecer objetivos a lograr en cada fase" color="#8cb6ce" meeting="false" start="2021-06-21" duration="1" complete="0" thirdDate="2021-06-11" thirdDate-constraint="0" expand="true">
+                <depend id="17" type="2" difference="0" hardness="Strong"/>
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="17" name="Determinar horarios y plazos de trabajo" color="#8cb6ce" meeting="false" start="2021-06-22" duration="1" complete="0" thirdDate="2021-06-11" thirdDate-constraint="0" expand="true"/>
+            <task id="19" name="Dividir responsabilidades" color="#8cb6ce" meeting="false" start="2021-06-22" duration="1" complete="0" thirdDate="2021-06-11" thirdDate-constraint="0" expand="true"/>
+            <task id="18" name="Fijar los recursos y formas para realizar el primer prototipo" color="#8cb6ce" meeting="false" start="2021-06-22" duration="1" complete="0" thirdDate="2021-06-11" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="41" name="Produccion del Prototipo" color="#8cb6ce" meeting="false" start="2021-06-23" duration="27" complete="0" thirdDate="2021-06-09" thirdDate-constraint="0" expand="true">
+            <depend id="77" type="2" difference="0" hardness="Strong"/>
+            <task id="46" name="Desarrollar el Front-End del prototipo" color="#8cb6ce" meeting="false" start="2021-06-23" duration="23" complete="0" thirdDate="2021-06-23" thirdDate-constraint="0" expand="true">
+                <depend id="59" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="53" name="Desarrollar el Back-End del prototipo" color="#8cb6ce" meeting="false" start="2021-06-23" duration="23" complete="0" thirdDate="2021-07-09" thirdDate-constraint="0" expand="true">
+                <depend id="59" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="59" name="Realizar las primeras pruebas con usuarios" color="#8cb6ce" meeting="false" start="2021-07-26" duration="3" complete="0" thirdDate="2021-07-13" thirdDate-constraint="0" expand="true">
+                <depend id="76" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="76" name="Buscar posibles mejoras a partir del Feedback de los usuarios" color="#8cb6ce" meeting="false" start="2021-07-29" duration="1" complete="0" thirdDate="2021-07-19" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="77" name="Mejora del Prototipo" color="#8cb6ce" meeting="false" start="2021-07-30" duration="48" complete="0" thirdDate="2021-07-19" thirdDate-constraint="0" expand="false">
+            <depend id="129" type="2" difference="0" hardness="Strong"/>
+            <task id="82" name="Aplicar las mejoras planeadas" color="#8cb6ce" meeting="false" start="2021-07-30" duration="7" complete="0" thirdDate="2021-07-14" thirdDate-constraint="0" expand="true">
+                <depend id="85" type="2" difference="0" hardness="Strong"/>
+                <depend id="89" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="85" name="Refinar la experiencia de usuario con el Front-End" color="#8cb6ce" meeting="false" start="2021-08-10" duration="20" complete="0" thirdDate="2021-07-30" thirdDate-constraint="0" expand="true">
+                <depend id="111" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="89" name="Añadir funciones nuevas al Back-End" color="#8cb6ce" meeting="false" start="2021-08-10" duration="14" complete="0" thirdDate="2021-07-30" thirdDate-constraint="0" expand="true">
+                <depend id="100" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="159" name="Optimizar la pagina" color="#8cb6ce" meeting="false" start="2021-09-15" duration="7" complete="0" thirdDate="2021-09-06" thirdDate-constraint="0" expand="true">
+                <depend id="111" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="100" name="Crear una interfaz para las nuevas funciones" color="#8cb6ce" meeting="false" start="2021-08-30" duration="12" complete="0" thirdDate="2021-07-30" thirdDate-constraint="0" expand="true">
+                <depend id="159" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="111" name="Revisar y asegurar el correcto funcionamiento de la pagina" color="#8cb6ce" meeting="false" start="2021-09-24" duration="3" complete="0" thirdDate="2021-08-20" thirdDate-constraint="0" expand="true">
+                <depend id="126" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="126" name="Probar con  usuarios la nueva version de la pagina" color="#8cb6ce" meeting="false" start="2021-09-29" duration="3" complete="0" thirdDate="2021-08-20" thirdDate-constraint="0" expand="true">
+                <depend id="134" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="134" name="Analizar el nuevo Feedback de los usuarios" color="#8cb6ce" meeting="false" start="2021-10-04" duration="1" complete="0" thirdDate="2021-08-20" thirdDate-constraint="0" expand="true">
+                <depend id="139" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="139" name="Determinar cuales son las ultimas caracteristicas para que la pagina este lista para lanzarla" color="#8cb6ce" meeting="false" start="2021-10-05" duration="1" complete="0" thirdDate="2021-08-25" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="129" name="Finalizar la pagina" color="#8cb6ce" meeting="false" start="2021-10-06" duration="45" complete="0" thirdDate="2021-08-20" thirdDate-constraint="0" expand="true">
+            <task id="164" name="Discutir la posibilidad de hostear la pagina en un servidor" color="#8cb6ce" meeting="false" start="2021-10-06" duration="1" complete="0" thirdDate="2021-10-15" thirdDate-constraint="0" expand="true"/>
+            <task id="150" name="Depurar completamente el Back-End de la pagina" color="#8cb6ce" meeting="false" start="2021-10-06" duration="14" complete="0" thirdDate="2021-09-20" thirdDate-constraint="0" expand="true">
+                <depend id="156" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="152" name="Mejorar la experiencia de usuario del Front-End" color="#8cb6ce" meeting="false" start="2021-10-06" duration="14" complete="0" thirdDate="2021-09-20" thirdDate-constraint="0" expand="true">
+                <depend id="156" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="156" name="Probar el correcto funcionamiento de la pagina" color="#8cb6ce" meeting="false" start="2021-10-26" duration="1" complete="0" thirdDate="2021-10-06" thirdDate-constraint="0" expand="true">
+                <depend id="170" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="170" name="Arreglar cualquier error o caracteristica sin terminar" color="#8cb6ce" meeting="false" start="2021-10-27" duration="7" complete="0" thirdDate="2021-10-13" thirdDate-constraint="0" expand="true">
+                <depend id="175" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="175" name="Conversar con el tutor posibles maneras de mejorar la pagina" color="#8cb6ce" meeting="false" start="2021-11-05" duration="1" complete="0" thirdDate="2021-10-13" thirdDate-constraint="0" expand="true">
+                <depend id="185" type="2" difference="0" hardness="Strong"/>
+                <depend id="186" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="185" name="Terminar de pulir el aspecto de la pagina" color="#8cb6ce" meeting="false" start="2021-11-08" duration="7" complete="0" thirdDate="2021-10-13" thirdDate-constraint="0" expand="true">
+                <depend id="195" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="186" name="Implementar las ultimas funciones perifericas de la pagina" color="#8cb6ce" meeting="false" start="2021-11-08" duration="7" complete="0" thirdDate="2021-10-13" thirdDate-constraint="0" expand="true">
+                <depend id="195" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="195" name="Arreglar cualquier error o problema restante" color="#8cb6ce" meeting="false" start="2021-11-17" duration="14" complete="0" thirdDate="2021-10-13" thirdDate-constraint="0" expand="true">
+                <depend id="201" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="201" name="Presentar la pagina al tutor" color="#8cb6ce" meeting="false" start="2021-12-07" duration="1" complete="0" thirdDate="2021-10-13" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="215" name="Presentar la pagina" color="#8cb6ce" meeting="false" start="2021-12-17" duration="1" complete="0" thirdDate="2021-11-24" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
